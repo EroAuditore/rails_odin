@@ -302,3 +302,23 @@ Entrypoint application = js/application-f826770d917d8a37c1d8.js js/application-f
 Completed 200 OK in 14660ms (Views: 14646.6ms | ActiveRecord: 0.0ms | Allocations: 17536)
 
 
+Started GET "/" for ::1 at 2021-03-13 17:55:45 -0600
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 2.3ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 159.1ms | Allocations: 4467)
+Completed 200 OK in 190ms (Views: 170.7ms | Allocations: 4841)
+
+
+Started GET "/about" for ::1 at 2021-03-13 17:55:50 -0600
+Processing by PagesController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (Duration: 13.7ms | Allocations: 109)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 72.8ms | Allocations: 4548)
+Completed 200 OK in 129ms (Views: 119.1ms | Allocations: 5047)
+
+

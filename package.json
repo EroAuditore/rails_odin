@@ -1,6 +1,10 @@
 {
   "name": "rails-odin",
   "private": true,
+  "description": "a really cool app",
+  "engines": {
+    "node": "12.16.1"
+  },
   "dependencies": {
     "@rails/actioncable": "^6.0.0",
     "@rails/activestorage": "^6.0.0",
@@ -11,5 +15,8 @@
   "version": "0.1.0",
   "devDependencies": {
     "webpack-dev-server": "^3.11.2"
+  },
+  "scripts": {
+    "start": "node index.js"
   }
 }
